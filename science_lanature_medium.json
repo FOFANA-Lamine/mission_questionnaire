@@ -1,222 +1,322 @@
 [
     {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
         "numero_question": 1,
+        "titre_question": "Which of these stars is the largest?",
+        "bonne_reponse": "UY Scuti",
+        "choix": [
+            "Betelgeuse",
+            "VY Canis Majoris",
+            "RW Cephei",
+            "UY Scuti"
+        ]
+    },
+    {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 2,
+        "titre_question": "What is the Linnean name of the domestic apple tree?",
+        "bonne_reponse": "Malus pumila",
+        "choix": [
+            "Malus pumila",
+            "Malus americana",
+            "Pomus domestica",
+            "Appelus delectica"
+        ]
+    },
+    {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 3,
+        "titre_question": "Who developed the first successful polio vaccine in the 1950s?",
+        "bonne_reponse": "Jonas Salk",
+        "choix": [
+            "Thomas Weller",
+            "Jonas Salk",
+            "Frederick Robbins",
+            "John F. Enders"
+        ]
+    },
+    {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 4,
+        "titre_question": "What is the largest living organism currently known to man?",
+        "bonne_reponse": "Honey Fungus",
+        "choix": [
+            "Honey Fungus",
+            "The Coral Reef",
+            "Blue Whale",
+            "Redwood Tree"
+        ]
+    },
+    {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 5,
+        "titre_question": "What is the molecular formula of the active component of chili peppers(Capsaicin)?",
+        "bonne_reponse": "C18H27NO3",
+        "choix": [
+            "C18H27NO3",
+            "C13H25NO4",
+            "C6H4Cl2",
+            "C21H23NO3"
+        ]
+    },
+    {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 6,
+        "titre_question": "What is the half-life of Uranium-235?",
+        "bonne_reponse": "703,800,000 years",
+        "choix": [
+            "1,260,900,000 years",
+            "4,300,400,000 years",
+            "703,800,000 years",
+            "Uranium-235 is a stable isotope"
+        ]
+    },
+    {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 7,
+        "titre_question": "On the periodic table of elements, what is the symbol for Tin?",
+        "bonne_reponse": "Sn",
+        "choix": [
+            "Ti",
+            "Sn",
+            "Ni",
+            "Na"
+        ]
+    },
+    {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 8,
+        "titre_question": "Which desert is the only desert in the world where the &quot;Saguaro&quot; cactus grows indigenously?",
+        "bonne_reponse": "The Sonoran Desert",
+        "choix": [
+            "The Sonoran Desert",
+            "The Gobi Desert",
+            "The Yuma Desert",
+            "The Arabian Desert"
+        ]
+    },
+    {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 9,
+        "titre_question": "What is an alternative name for multiple personality disorder?",
+        "bonne_reponse": "Dissociative identity disorder",
+        "choix": [
+            "Dissociative identity disorder",
+            "Identity crisis",
+            "Schizophrenia",
+            "Body integrity identity disorder"
+        ]
+    },
+    {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 10,
+        "titre_question": "What mineral has the lowest number on the Mohs scale?",
+        "bonne_reponse": "Talc",
+        "choix": [
+            "Diamond",
+            "Talc",
+            "Gypsum",
+            "Quartz"
+        ]
+    },
+    {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 11,
+        "titre_question": "The human right lung has how many lobes?",
+        "bonne_reponse": "3",
+        "choix": [
+            "3",
+            "1",
+            "2",
+            "4"
+        ]
+    },
+    {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 12,
         "titre_question": "Which part of the body does glaucoma affect?",
         "bonne_reponse": "Eyes",
         "choix": [
             "Stomach",
+            "Eyes",
             "Throat",
-            "Blood",
-            "Eyes"
+            "Blood"
         ]
     },
     {
-        "numero_question": 2,
-        "titre_question": "Myopia is the scientific term for which condition?",
-        "bonne_reponse": "Shortsightedness",
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 13,
+        "titre_question": "What is the study of the cells and tissues of plants and animals?",
+        "bonne_reponse": "Histology",
         "choix": [
-            "Shortsightedness",
-            "Clouded Vision",
-            "Farsightedness",
-            "Double Vision"
+            "Microbiology",
+            "Anatomy",
+            "Biochemistry",
+            "Histology"
         ]
     },
     {
-        "numero_question": 3,
-        "titre_question": "What is the chemical formula for ammonia?",
-        "bonne_reponse": "NH3",
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 14,
+        "titre_question": "Gannymede is the largest moon of which planet?",
+        "bonne_reponse": "Jupiter",
         "choix": [
-            "NO3",
-            "NH3",
-            "CH4",
-            "CO2"
+            "Jupiter",
+            "Mars",
+            "Neptune",
+            "Uranus"
         ]
     },
     {
-        "numero_question": 4,
-        "titre_question": "The &quot;Tibia&quot; is found in which part of the body?",
-        "bonne_reponse": "Leg",
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 15,
+        "titre_question": "What is the atomic number of the element Strontium?",
+        "bonne_reponse": "38",
         "choix": [
-            "Leg",
-            "Hand",
-            "Head",
-            "Arm"
+            "38",
+            "73",
+            "47",
+            "11"
         ]
     },
     {
-        "numero_question": 5,
-        "titre_question": "About how old is Earth?",
-        "bonne_reponse": "4.5 Billion Years",
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 16,
+        "titre_question": "Which chemical element was originally known as Alabamine?",
+        "bonne_reponse": "Astatine",
         "choix": [
-            "2.5 Billion Years",
-            "5.5 Billion Years",
-            "3.5 Billion Years",
-            "4.5 Billion Years"
+            "Selenium",
+            "Molybdenum",
+            "Antimony",
+            "Astatine"
         ]
     },
     {
-        "numero_question": 6,
-        "titre_question": "What is the name of the cognitive bias wherein a person with low ability in a particular skill mistake themselves as being superior?",
-        "bonne_reponse": "Dunning-Kruger effect",
-        "choix": [
-            "Freud-Hall effect",
-            "M&uuml;ller-Lyer effect",
-            "Dunning-Kruger effect",
-            "Meyers-Briggs effect"
-        ]
-    },
-    {
-        "numero_question": 7,
-        "titre_question": "What do you study if you are studying entomology?",
-        "bonne_reponse": "Insects",
-        "choix": [
-            "Humans",
-            "the Brain",
-            "Insects",
-            "Fish"
-        ]
-    },
-    {
-        "numero_question": 8,
-        "titre_question": "The human right lung has how many lobes?",
-        "bonne_reponse": "3",
-        "choix": [
-            "4",
-            "3",
-            "2",
-            "1"
-        ]
-    },
-    {
-        "numero_question": 9,
-        "titre_question": "The medial meniscus forms which part of what joint in the human body?",
-        "bonne_reponse": "Knee",
-        "choix": [
-            "Shoulder",
-            "Ankle",
-            "Elbow",
-            "Knee"
-        ]
-    },
-    {
-        "numero_question": 10,
-        "titre_question": "What is the colour of unoxidized blood?",
-        "bonne_reponse": "Red",
-        "choix": [
-            "Red",
-            "Green",
-            "Purple",
-            "Blue"
-        ]
-    },
-    {
-        "numero_question": 11,
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 17,
         "titre_question": "What are the smallest blood vessels in the human body?",
         "bonne_reponse": "Capillaries",
         "choix": [
-            "Lymphatics",
-            "Capillaries",
+            "Arterioles",
             "Veinules",
-            "Arterioles"
+            "Lymphatics",
+            "Capillaries"
         ]
     },
     {
-        "numero_question": 12,
-        "titre_question": "In human biology, a circadium rhythm relates to a period of roughly how many hours?",
-        "bonne_reponse": "24",
-        "choix": [
-            "8",
-            "16",
-            "32",
-            "24"
-        ]
-    },
-    {
-        "numero_question": 13,
-        "titre_question": "To the nearest minute, how long does it take for light to travel from the Sun to the Earth?",
-        "bonne_reponse": "8 Minutes",
-        "choix": [
-            "6 Minutes",
-            "8 Minutes",
-            "2 Minutes",
-            "12 Minutes"
-        ]
-    },
-    {
-        "numero_question": 14,
-        "titre_question": "Deionized water is water with which of the following removed?",
-        "bonne_reponse": "Iron",
-        "choix": [
-            "Oxygen",
-            "Hydrogen",
-            "Iron",
-            "Uncharged atoms"
-        ]
-    },
-    {
-        "numero_question": 15,
-        "titre_question": "What is the largest living organism currently known to man?",
-        "bonne_reponse": "Honey Fungus",
-        "choix": [
-            "The Coral Reef",
-            "Redwood Tree",
-            "Honey Fungus",
-            "Blue Whale"
-        ]
-    },
-    {
-        "numero_question": 16,
-        "titre_question": "The Sun consists of mostly which two elements?",
-        "bonne_reponse": "Hydrogen &amp; Helium",
-        "choix": [
-            "Carbon &amp; Helium",
-            "Hydrogen &amp; Nitrogen",
-            "Carbon &amp; Nitrogen",
-            "Hydrogen &amp; Helium"
-        ]
-    },
-    {
-        "numero_question": 17,
-        "titre_question": "Which color cannot be produced in Roses, even through genetic alteration?",
-        "bonne_reponse": "Blue",
-        "choix": [
-            "Brown",
-            "Black",
-            "Orange",
-            "Blue"
-        ]
-    },
-    {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
         "numero_question": 18,
+        "titre_question": "Which one of these scientists conducted the Gold Foil Experiment which concluded that atoms are mostly made of empty space?",
+        "bonne_reponse": "Ernest Rutherford",
+        "choix": [
+            "Archimedes",
+            "Niels Henrik David Bohr",
+            "Joseph John Thomson",
+            "Ernest Rutherford"
+        ]
+    },
+    {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
+        "numero_question": 19,
         "titre_question": "Deuterium is an isotope of which element?",
         "bonne_reponse": "Hydrogen",
         "choix": [
+            "Neon",
             "Hydrogen",
             "Nitrogen",
-            "Neon",
             "Helium"
         ]
     },
     {
-        "numero_question": 19,
-        "titre_question": "What is the scientific term for &#039;taste&#039;?",
-        "bonne_reponse": "Gustatory Perception",
-        "choix": [
-            "Gustatory Perception",
-            "Somatosensation",
-            "Olfaction",
-            "Auditory Perception"
-        ]
-    },
-    {
+        "infos": [
+            "Science &amp; Nature",
+            "La nature",
+            "medium"
+        ],
         "numero_question": 20,
         "titre_question": "Approximately how long is a year on Uranus?",
         "bonne_reponse": "84 Earth years",
         "choix": [
-            "47 Earth years",
-            "84 Earth years",
             "62 Earth years",
-            "109 Earth years"
+            "84 Earth years",
+            "109 Earth years",
+            "47 Earth years"
         ]
     }
 ]

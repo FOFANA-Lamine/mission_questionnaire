@@ -1,49 +1,74 @@
 [
     {
+        "infos": [
+            "Sports",
+            "Sport",
+            "medium"
+        ],
         "numero_question": 1,
-        "titre_question": "Which of the following Grand Slam tennis tournaments occurs LAST?",
-        "bonne_reponse": "US Open",
+        "titre_question": "Which professional wrestler fell from the rafters to his death during a live Pay-Per-View event in 1999?",
+        "bonne_reponse": "Owen Hart",
         "choix": [
-            "French Open",
-            "US Open",
-            "Australian Open",
-            "Wimbledon"
+            "Lex Luger",
+            "Al Snow",
+            "Owen Hart",
+            "Chris Benoit"
         ]
     },
     {
+        "infos": [
+            "Sports",
+            "Sport",
+            "medium"
+        ],
         "numero_question": 2,
-        "titre_question": "What is Tiger Woods&#039; all-time best career golf-score?",
-        "bonne_reponse": "61",
+        "titre_question": "What year was hockey legend Wayne Gretzky born?",
+        "bonne_reponse": "1961",
         "choix": [
-            "63",
-            "61",
-            "65",
-            "67"
+            "1963",
+            "1961",
+            "1965",
+            "1959"
         ]
     },
     {
+        "infos": [
+            "Sports",
+            "Sport",
+            "medium"
+        ],
         "numero_question": 3,
-        "titre_question": "How many games did Arsenal FC go unbeaten during the 2003-2004 season of the English Premier League",
-        "bonne_reponse": "38",
+        "titre_question": "Which country did Kabaddi, a contact sport involving tackling, originate from?",
+        "bonne_reponse": "India",
         "choix": [
-            "38",
-            "22",
-            "51",
-            "49"
+            "India",
+            "Australia",
+            "Turkey",
+            "Cambodia"
         ]
     },
     {
+        "infos": [
+            "Sports",
+            "Sport",
+            "medium"
+        ],
         "numero_question": 4,
-        "titre_question": "Which soccer team won the Copa Am&eacute;rica 2015 Championship ?",
-        "bonne_reponse": "Chile",
+        "titre_question": "What is the name of the AHL affiliate of the Toronto Maple Leafs?",
+        "bonne_reponse": "Toronto Marlies",
         "choix": [
-            "Chile",
-            "Argentina",
-            "Paraguay",
-            "Brazil"
+            "Toronto Wolfpack",
+            "Toronto Marlies",
+            "Toronto Rock",
+            "Toronto Argonauts"
         ]
     },
     {
+        "infos": [
+            "Sports",
+            "Sport",
+            "medium"
+        ],
         "numero_question": 5,
         "titre_question": "What cricketing term denotes a batsman being dismissed with a score of zero?",
         "bonne_reponse": "Duck",
@@ -55,58 +80,83 @@
         ]
     },
     {
+        "infos": [
+            "Sports",
+            "Sport",
+            "medium"
+        ],
         "numero_question": 6,
-        "titre_question": "Which portuguese island is soccer player Cristiano Ronaldo from?",
-        "bonne_reponse": "Madeira",
+        "titre_question": "Which of these teams isn&#039;t a member of the NHL&#039;s &quot;Original Six&quot; era?",
+        "bonne_reponse": "Philadelphia Flyers",
         "choix": [
-            "Terceira",
-            "Santa Maria",
-            "Porto Santo",
-            "Madeira"
+            "Toronto Maple Leafs",
+            "New York Rangers",
+            "Philadelphia Flyers",
+            "Boston Bruins"
         ]
     },
     {
+        "infos": [
+            "Sports",
+            "Sport",
+            "medium"
+        ],
         "numero_question": 7,
-        "titre_question": "Which NBA player has the most games played over the course of their career?",
-        "bonne_reponse": "Robert Parish",
+        "titre_question": "What is the nickname of Northampton town&#039;s rugby union club?",
+        "bonne_reponse": "Saints",
         "choix": [
-            "Kobe Bryant",
-            "Kevin Garnett",
-            "Robert Parish",
-            "Kareem Abdul-Jabbar"
+            "Saints",
+            "Harlequins",
+            "Wasps",
+            "Saracens"
         ]
     },
     {
+        "infos": [
+            "Sports",
+            "Sport",
+            "medium"
+        ],
         "numero_question": 8,
-        "titre_question": "Which nation hosted the FIFA World Cup in 2006?",
-        "bonne_reponse": "Germany",
+        "titre_question": "What is the highest belt you can get in Taekwondo?",
+        "bonne_reponse": "Black",
         "choix": [
-            "South Africa",
-            "Brazil",
-            "Germany",
-            "United Kingdom"
+            "White",
+            "Red",
+            "Black",
+            "Green"
         ]
     },
     {
+        "infos": [
+            "Sports",
+            "Sport",
+            "medium"
+        ],
         "numero_question": 9,
-        "titre_question": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
-        "bonne_reponse": "13",
+        "titre_question": "In 2016, who won the Formula 1 World Constructor&#039;s Championship for the third time in a row?",
+        "bonne_reponse": "Mercedes-AMG Petronas",
         "choix": [
-            "20",
-            "13",
-            "22",
-            "11"
+            "Red Bull Racing Renault",
+            "McLaren Honda",
+            "Scuderia Ferrari",
+            "Mercedes-AMG Petronas"
         ]
     },
     {
+        "infos": [
+            "Sports",
+            "Sport",
+            "medium"
+        ],
         "numero_question": 10,
-        "titre_question": "The F1 season of 1994 is remembered for what tragic event?",
-        "bonne_reponse": "Death of Ayrton Senna (San Marino)",
+        "titre_question": "Which of the following pitchers was named National League Rookie of the Year for the 2013 season?",
+        "bonne_reponse": "Jose Fernandez",
         "choix": [
-            "Death of Ayrton Senna (San Marino)",
-            "Schumacher&#039;s Ban (Britain)",
-            "Verstappen on Fire (Germany)",
-            "The Showdown (Australia)"
+            "Matt Harvey",
+            "Jacob deGrom",
+            "Shelby Miller",
+            "Jose Fernandez"
         ]
     }
 ]

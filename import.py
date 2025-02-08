@@ -51,6 +51,7 @@ def generate_json_file(categorie, titre, url):
 
     for index, question in enumerate(results):
         dict_sortie_questionnaire = {}
+        dict_sortie_questionnaire["infos"] = [ question['category'] , titre , question['difficulty'] ]
         dict_sortie_questionnaire["numero_question"] = index + 1
         dict_sortie_questionnaire["titre_question"] = question['question']
         bonne_reponse = question['correct_answer']
@@ -60,6 +61,7 @@ def generate_json_file(categorie, titre, url):
 
 
         dict_sortie_questionnaire["choix"] = listes_des_choix
+
         out_questions.append(dict_sortie_questionnaire)
 
     difficulty = results[0]['difficulty']
