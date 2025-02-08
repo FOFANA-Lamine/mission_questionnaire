@@ -1,3 +1,5 @@
+import json
+
 
 class Question:
     def __init__(self, titre, choix, bonne_reponse):
@@ -28,6 +30,8 @@ class Question:
         print()
         return resultat_response_correcte
 
+
+
     def demander_reponse_numerique_utlisateur(min, max):
         reponse_str = input("Votre réponse (entre " + str(min) + " et " + str(max) + ") :")
         try:
@@ -52,7 +56,7 @@ class Questionnaire:
         print("Score final :", score, "sur", len(self.questions))
         return score
 
-
+"""
 Questionnaire(
     (
     Question("Quelle est la capitale de la France ?", ("Marseille", "Nice", "Paris", "Nantes", "Lille"), "Paris"), 
@@ -60,5 +64,35 @@ Questionnaire(
     Question("Quelle est la capitale de la Belgique ?", ("Anvers", "Bruxelles", "Bruges", "Liège"), "Bruxelles")
     )
 ).lancer()
+"""
+
+# Chargement de fichier
+filename = "science_lanature_medium.json"
+file = open(filename, "r")
+json_data = file.read()
+file.close()
+
+# Déseraialisation
+questionnaire_data = json.loads(json_data)
+
+# Exemple pour une question
+
+questionnaire_data_question_1 = questionnaire_data[0]
+q = Question( questionnaire_data_question_1['titre_question'], questionnaire_data_question_1['choix'], questionnaire_data_question_1['bonne_reponse'] )
+q.poser()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

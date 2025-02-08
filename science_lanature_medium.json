@@ -1,0 +1,222 @@
+[
+    {
+        "numero_question": 1,
+        "titre_question": "Which part of the body does glaucoma affect?",
+        "bonne_reponse": "Eyes",
+        "choix": [
+            "Stomach",
+            "Throat",
+            "Blood",
+            "Eyes"
+        ]
+    },
+    {
+        "numero_question": 2,
+        "titre_question": "Myopia is the scientific term for which condition?",
+        "bonne_reponse": "Shortsightedness",
+        "choix": [
+            "Shortsightedness",
+            "Clouded Vision",
+            "Farsightedness",
+            "Double Vision"
+        ]
+    },
+    {
+        "numero_question": 3,
+        "titre_question": "What is the chemical formula for ammonia?",
+        "bonne_reponse": "NH3",
+        "choix": [
+            "NO3",
+            "NH3",
+            "CH4",
+            "CO2"
+        ]
+    },
+    {
+        "numero_question": 4,
+        "titre_question": "The &quot;Tibia&quot; is found in which part of the body?",
+        "bonne_reponse": "Leg",
+        "choix": [
+            "Leg",
+            "Hand",
+            "Head",
+            "Arm"
+        ]
+    },
+    {
+        "numero_question": 5,
+        "titre_question": "About how old is Earth?",
+        "bonne_reponse": "4.5 Billion Years",
+        "choix": [
+            "2.5 Billion Years",
+            "5.5 Billion Years",
+            "3.5 Billion Years",
+            "4.5 Billion Years"
+        ]
+    },
+    {
+        "numero_question": 6,
+        "titre_question": "What is the name of the cognitive bias wherein a person with low ability in a particular skill mistake themselves as being superior?",
+        "bonne_reponse": "Dunning-Kruger effect",
+        "choix": [
+            "Freud-Hall effect",
+            "M&uuml;ller-Lyer effect",
+            "Dunning-Kruger effect",
+            "Meyers-Briggs effect"
+        ]
+    },
+    {
+        "numero_question": 7,
+        "titre_question": "What do you study if you are studying entomology?",
+        "bonne_reponse": "Insects",
+        "choix": [
+            "Humans",
+            "the Brain",
+            "Insects",
+            "Fish"
+        ]
+    },
+    {
+        "numero_question": 8,
+        "titre_question": "The human right lung has how many lobes?",
+        "bonne_reponse": "3",
+        "choix": [
+            "4",
+            "3",
+            "2",
+            "1"
+        ]
+    },
+    {
+        "numero_question": 9,
+        "titre_question": "The medial meniscus forms which part of what joint in the human body?",
+        "bonne_reponse": "Knee",
+        "choix": [
+            "Shoulder",
+            "Ankle",
+            "Elbow",
+            "Knee"
+        ]
+    },
+    {
+        "numero_question": 10,
+        "titre_question": "What is the colour of unoxidized blood?",
+        "bonne_reponse": "Red",
+        "choix": [
+            "Red",
+            "Green",
+            "Purple",
+            "Blue"
+        ]
+    },
+    {
+        "numero_question": 11,
+        "titre_question": "What are the smallest blood vessels in the human body?",
+        "bonne_reponse": "Capillaries",
+        "choix": [
+            "Lymphatics",
+            "Capillaries",
+            "Veinules",
+            "Arterioles"
+        ]
+    },
+    {
+        "numero_question": 12,
+        "titre_question": "In human biology, a circadium rhythm relates to a period of roughly how many hours?",
+        "bonne_reponse": "24",
+        "choix": [
+            "8",
+            "16",
+            "32",
+            "24"
+        ]
+    },
+    {
+        "numero_question": 13,
+        "titre_question": "To the nearest minute, how long does it take for light to travel from the Sun to the Earth?",
+        "bonne_reponse": "8 Minutes",
+        "choix": [
+            "6 Minutes",
+            "8 Minutes",
+            "2 Minutes",
+            "12 Minutes"
+        ]
+    },
+    {
+        "numero_question": 14,
+        "titre_question": "Deionized water is water with which of the following removed?",
+        "bonne_reponse": "Iron",
+        "choix": [
+            "Oxygen",
+            "Hydrogen",
+            "Iron",
+            "Uncharged atoms"
+        ]
+    },
+    {
+        "numero_question": 15,
+        "titre_question": "What is the largest living organism currently known to man?",
+        "bonne_reponse": "Honey Fungus",
+        "choix": [
+            "The Coral Reef",
+            "Redwood Tree",
+            "Honey Fungus",
+            "Blue Whale"
+        ]
+    },
+    {
+        "numero_question": 16,
+        "titre_question": "The Sun consists of mostly which two elements?",
+        "bonne_reponse": "Hydrogen &amp; Helium",
+        "choix": [
+            "Carbon &amp; Helium",
+            "Hydrogen &amp; Nitrogen",
+            "Carbon &amp; Nitrogen",
+            "Hydrogen &amp; Helium"
+        ]
+    },
+    {
+        "numero_question": 17,
+        "titre_question": "Which color cannot be produced in Roses, even through genetic alteration?",
+        "bonne_reponse": "Blue",
+        "choix": [
+            "Brown",
+            "Black",
+            "Orange",
+            "Blue"
+        ]
+    },
+    {
+        "numero_question": 18,
+        "titre_question": "Deuterium is an isotope of which element?",
+        "bonne_reponse": "Hydrogen",
+        "choix": [
+            "Hydrogen",
+            "Nitrogen",
+            "Neon",
+            "Helium"
+        ]
+    },
+    {
+        "numero_question": 19,
+        "titre_question": "What is the scientific term for &#039;taste&#039;?",
+        "bonne_reponse": "Gustatory Perception",
+        "choix": [
+            "Gustatory Perception",
+            "Somatosensation",
+            "Olfaction",
+            "Auditory Perception"
+        ]
+    },
+    {
+        "numero_question": 20,
+        "titre_question": "Approximately how long is a year on Uranus?",
+        "bonne_reponse": "84 Earth years",
+        "choix": [
+            "47 Earth years",
+            "84 Earth years",
+            "62 Earth years",
+            "109 Earth years"
+        ]
+    }
+]

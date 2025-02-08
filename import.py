@@ -1,14 +1,15 @@
-
 import requests
 import json
 import random
 import unicodedata
 import time
 
+"""L'erreur 429 indique que vous avez dépassé le nombre de requêtes autorisées vers l'API dans un certain laps de temps, 
+ce qui est souvent le cas avec des API publiques. Voici quelques stratégies pour gérer cette situation"""
+
 open_quizz_data = (
-    ("Histoires", "Les histoires", "https://opentdb.com/api.php?amount=30&category=23&difficulty=hard&type=multiple"),
-    ("Sports", "Sport", "https://opentdb.com/api.php?amount=10&category=21&difficulty=medium&type=multiple"),
-    ("Science", "La nature", "https://opentdb.com/api.php?amount=20&category=17&difficulty=medium&type=multiple")
+    ("Science", "La nature", "https://opentdb.com/api.php?amount=20&category=17&difficulty=medium&type=multiple"),
+    ("Sports", "Sport", "https://opentdb.com/api.php?amount=10&category=21&difficulty=medium&type=multiple")
 )
 
 
@@ -17,46 +18,55 @@ def strip_accents(s):
 
 
 def get_quizz_filename(categorie, titre, difficulte):
-    return strip_accents(categorie).lower().replace(" ", "") + "_" + strip_accents(titre).lower().replace(" ",
-                                                                                                          "") + "_" + strip_accents(
-        difficulte).lower().replace(" ", "") + ".json"
+    return (strip_accents(categorie).lower().replace(" ", "") +
+         "_" + strip_accents(titre).lower().replace(" ","") +
+        "_" + strip_accents(difficulte).lower().replace(" ", "") + ".json")
 
 
 def generate_json_file(categorie, titre, url):
     out_questions = []
-    response = requests.get(url)
-    # Vérifiez si la requête a réussi
+
+    for attempt in range(5):  # Essai jusqu'à 5 fois
+        response = requests.get(url)
+
+        if response.status_code == 200:
+            data = json.loads(response.text)
+            if 'results' not in data:
+                print("La clé 'results' n'existe pas dans la réponse.")
+                return
+
+            results = data['results']
+            break  # Sortir de la boucle si la requête a réussi
+        elif response.status_code == 429:
+            wait_time = 2 ** attempt     # Temps d'attente exponentiel
+            print(f"Erreur 429 : Trop de requêtes. Attente de {wait_time} secondes avant de réessayer.")
+            time.sleep(wait_time)  # Attendre avant de réessayer
+        else:
+            print(f"Erreur lors de la requête : {response.status_code}")
+            return
+
+    # Si on est sorti de la boucle sans succès, on peut arrêter ici
     if response.status_code != 200:
-        print(f"Erreur lors de la requête : {response.status_code}")
         return
 
-    data = json.loads(response.text)
-    # Ajoutez ceci pour voir la réponse de l'API
-    print(json.dumps(data, ensure_ascii=False, indent=4))  # Affiche la réponse de l'API
-
-    try:
-        results = data['results']
-    except:
-        print(f"la clef results n'existe pas pour la categorie :{categorie}")
-
-
     for index, question in enumerate(results):
-        dict_sortie_questionnaire = {}   # Créer un nouveau dictionnaire pour chaque question
+        dict_sortie_questionnaire = {}
         dict_sortie_questionnaire["numero_question"] = index + 1
         dict_sortie_questionnaire["titre_question"] = question['question']
+        bonne_reponse = question['correct_answer']
+        dict_sortie_questionnaire["bonne_reponse"] = bonne_reponse
+        listes_des_choix = [ bonne_reponse] + question['incorrect_answers']
+        random.shuffle(listes_des_choix)
 
-        listes_des_choix = [ question['correct_answer'] ] + question['incorrect_answers']  # Ajouter la bonne réponse et les réponses incorrectes
-        random.shuffle(listes_des_choix)  # Mélanger les choix
 
-        dict_sortie_questionnaire["choix"] = listes_des_choix  # Assigner les choix mélangés
-
+        dict_sortie_questionnaire["choix"] = listes_des_choix
         out_questions.append(dict_sortie_questionnaire)
 
-    difficulty = results[0]['difficulty']  # Obtenir la difficulté après avoir récupéré les questions
+    difficulty = results[0]['difficulty']
     out_filename = get_quizz_filename(categorie, titre, difficulty)
 
-    out_json = json.dumps( out_questions, ensure_ascii=False, indent=4)  # ensure_ascii=False pour garder les accents
-    with open(out_filename, "w", encoding='utf-8') as file:  # Écriture avec encodage UTF-8
+    out_json = json.dumps(out_questions, ensure_ascii=False, indent=4)
+    with open(out_filename, "w", encoding='utf-8') as file:
         file.write(out_json)
 
 
