@@ -1,3 +1,8 @@
+# Passer le nom du fichier en ligne de commande
+# argv
+
+
+
 import requests
 import json
 import random
